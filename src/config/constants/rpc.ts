@@ -1,7 +1,8 @@
 import { ChainId } from "./chainId";
 
 const RPC = {
-    [ChainId.ETHEREUM]: "https://eth-mainnet.g.alchemy.com/v2/VeGNNvyUMm_WjwEF8UZi8LTsNLTp_i5L",
+    [ChainId.QITMEER]: "https://meer.testnet.meerfans.club/",
+    // [ChainId.ETHEREUM]: "https://eth-mainnet.g.alchemy.com/v2/VeGNNvyUMm_WjwEF8UZi8LTsNLTp_i5L",
     // [ChainId.ETHEREUM]: 'https://eth-mainnet.alchemyapi.io/v2/HNQXSfiUcPjfpDBQaWYXjqlhTr1cEY9c',
     // [ChainId.MAINNET]: 'https://eth-mainnet.alchemyapi.io/v2/q1gSNoSMEzJms47Qn93f9-9Xg5clkmEC',
     [ChainId.ROPSTEN]: "https://ropsten.infura.io/v3/c7bae63096c74b3dad54ad7ae275df0c",

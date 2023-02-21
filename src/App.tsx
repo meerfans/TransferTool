@@ -24,7 +24,7 @@ function App() {
                     <Web3ReactManager>
                         <Route path="/" exact component={Home} />
                     </Web3ReactManager>
-                    <Footer></Footer>
+                    {/*<Footer></Footer>*/}
                 </Router>
             </Web3ProviderNetwork>
         </Web3ReactProvider>

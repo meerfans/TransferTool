@@ -1,3 +1,4 @@
 import { ChainId } from "./chainId";
 
-export default ChainId.RINKEBY;
+export default ChainId.QITMEER;
+// export default ChainId.RINKEBY;

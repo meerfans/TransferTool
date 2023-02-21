@@ -2,6 +2,7 @@ import { ChainId } from "./chainId";
 
 export default {
     multiTransfer: {
+        [ChainId.QITMEER]: "0xdC089020363aa3aF648D37F4Dfcff6C0e9f61D7C",
         [ChainId.RINKEBY]: "0xB304F14dc0fF9bC596D5d1f0e4D67dCA3278f8cC",
         [ChainId.KOVAN]: "0xDffd2226496D02a1108618aeA58F9aA3D5A3538F",
         [ChainId.GOERLI]: "0x129beB5ed515aD15Ec74D1b61d02b92aF1b39bd5",

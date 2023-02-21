@@ -14,6 +14,11 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const contractlist = [
     {
+        chain: "Qitmeer",
+        link: "",
+        address: "",
+    },
+    {
         chain: "Rinkeby",
         link: "https://rinkeby.etherscan.io/address/0xB304F14dc0fF9bC596D5d1f0e4D67dCA3278f8cC",
         address: "0xB304F14dc0fF9bC596D5d1f0e4D67dCA3278f8cC",

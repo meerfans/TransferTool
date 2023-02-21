@@ -8,7 +8,8 @@ const Rinkeby = "https://raw.githubusercontent.com/sushiswap/icons/master/networ
 const Ropsten = "https://raw.githubusercontent.com/sushiswap/icons/master/network/ropsten.jpg";
 
 export const NETWORK_ICON = {
-    [ChainId.ETHEREUM]: Mainnet,
+    [ChainId.QITMEER]: Mainnet,
+    // [ChainId.ETHEREUM]: Mainnet,
     [ChainId.ROPSTEN]: Ropsten,
     [ChainId.RINKEBY]: Rinkeby,
     [ChainId.GOERLI]: Goerli,
@@ -18,7 +19,8 @@ export const NETWORK_ICON = {
 };
 
 export const NETWORK_LABEL: { [ChainId: number]: string } = {
-    [ChainId.ETHEREUM]: "Ethereum",
+    [ChainId.QITMEER]: "Qitmeer",
+    // [ChainId.ETHEREUM]: "Ethereum",
     [ChainId.RINKEBY]: "Rinkeby",
     [ChainId.ROPSTEN]: "Ropsten",
     [ChainId.GOERLI]: "Goerli",
